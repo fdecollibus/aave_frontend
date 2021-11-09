@@ -7,6 +7,7 @@
     "@axa-ch/dropdown": "^9.1.20",
     "@axa-ch/heading": "^3.1.9",
     "@axa-ch/patterns-library-polyfill": "latest",
+    "@axa-ch/stepper": "^1.0.13",
     "ethers": "^5.5.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3"
