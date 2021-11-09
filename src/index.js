@@ -1,8 +1,10 @@
 import '@axa-ch/patterns-library-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import { AXADropdown } from './patterns-library';
 import { AXAButton } from './patterns-library';
+import { AXAHeroBanner } from './patterns-library';
+
 
 import './index.scss';
 
@@ -25,6 +27,8 @@ export default class PodCryptoEasyInvest {
 
   init() {
     ReactDOM.render(<>
+      <AXAHeroBanner></AXAHeroBanner>
+      <AXADropdown items={[{ name: 'Ether', value: 'Ether 1' }]}></AXADropdown>
       <AXAButton icon="arrow-right">Crypto Easy Invest</AXAButton>
     </>, this.elem);
   }
