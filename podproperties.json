@@ -1,5 +1,5 @@
 {
-  "type": "on-dom-loaded",
+  "type": "",
   "api": {
     "dev": "https://www.dev-api.axa-ch.intraxa/YOUR-APP-ID",
     "acc": "http://acc-api.axa.ch/YOUR-APP-ID",

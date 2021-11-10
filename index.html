@@ -26,10 +26,10 @@
   <body>
 
       <article
-      class="o-pod-crypto-easy-invest js-podcryptoeasyinvest-mount podcryptoeasyinvest"
+      class="o-pod-test-w3 js-podtestw3-mount podtestw3"
       data-language="de"
       data-stage="dev"
-      data-type="on-dom-loaded"
+      data-type=""
       data-api="https://www.dev-api.axa-ch.intraxa/YOUR-APP-ID"
       data-greeting="Guten Morgen"
       data-example_prop="myValue"
@@ -40,8 +40,8 @@
       <!-- plugin initialization -->
 <script>
     document.addEventListener('DOMContentLoaded', function () {
-        var elem = document.querySelector('.js-podcryptoeasyinvest-mount');
-        var instance = new PodCryptoEasyInvest(elem, { ...elem.dataset, store: window.store });
+        var elem = document.querySelector('.js-podtestw3-mount');
+        var instance = new PodTestW3(elem, { ...elem.dataset, store: window.store });
     });
 </script>
   </body>

@@ -1,10 +1,10 @@
-# POD PodCryptoEasyInvest
+# POD PodTestW3
 
 This is a Micro Frontend deployable on the AXA.ch WebHub.
 
 ## Scripts
 
-To install the pod locally: `npm install @axa-ch/pod-crypto-easy-invest`
+To install the pod locally: `npm install @axa-ch/pod-test-w3`
 
 ### DEV commands
 - `npm start` start local DEV environment

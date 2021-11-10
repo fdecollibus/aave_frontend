@@ -31,7 +31,7 @@ module.exports = {
 
   // output file(s) and chunks
   output: {
-    library: 'PodCryptoEasyInvest',
+    library: 'PodTestW3',
     libraryTarget: 'umd',
     libraryExport: 'default',
     path: path.resolve(__dirname, outputPath),
